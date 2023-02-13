@@ -313,4 +313,10 @@ footer p {
     footer .socials{
         margin-top: -22px;
     }
+
+    .socials .fa {
+        font-size: 20px;
+        width: 10px;
+        margin-right: 11.6%;
+    }
 }
