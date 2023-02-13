@@ -1,6 +1,16 @@
-﻿body {
-    margin-top: 3%;
+﻿* {
+    box-sizing: border-box;
+    position: relative;
+}
+body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif, Verdana;
+}
+
+.navbar {
+    overflow: hidden;
+    margin-top: 50px;
+    color: red;
 }
 
 ul {
@@ -116,9 +126,9 @@ button {
     background: transparent;
     z-index: 1;
     left: 45%;
-    bottom: -35px;
     cursor: pointer;
-    margin-top: 35px;
+    margin-top: 2%;
+    margin-bottom: -19%;
 }
 
 button::before {
@@ -144,32 +154,32 @@ button:focus {
 }
 
 footer {
+    background: white;
+    position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -14em;
     width: 100%;
-    position: fixed;
+    height: 50px;
 }
 
 footer p {
     text-align: left;
-    margin-left: 1.5%;
-    margin-top: 2.7%;
-    margin-bottom: 0.1%;
+    margin-left: 12.5%;
+    margin-top: 2%;
+    margin-bottom: -1.1%;
     color: slategray;
     font-weight: 200;
 }
 
-.fa {
-    padding: 10px;
-    font-size: 50px;
-    width: 20px;
-    text-align: right;
+.socials .fa {
+    padding: 20px;
+    font-size: 28px;
+    width: 25px;
     text-decoration: none;
     border-radius: 50%;
     float: right;
-    margin-right: 1.2%;
-    margin-top: -0.8%;
-    margin-bottom: 1.1%;
+    margin-right: 4.2%;
+    margin-top: -25px;
 }
 
 .fa:hover {
@@ -215,28 +225,33 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        margin-top: 3%;
+        font-family: Arial, Helvetica, sans-serif, Verdana;
+    }
+
     .first-content {
         width: 100%;
         display: block;
         margin-bottom: 20px;
+        margin-top: -10%;
     }
 
     .navbar {
         width: 100%;
         display: block;
-        margin-bottom: 50px;
+        position: sticky;
     }
 
     .left {
-        margin-top: 8px;
-        position: fixed;
-        margin-left: 8%;
+        margin-bottom: -38px;
+        position: sticky;
+        margin-left: 50%;
     }
 
     .right {
         margin-top: 10px;
-        position: fixed;
-        margin-left: 60%;
+        position: sticky;
     }
 
     #logo {
@@ -250,9 +265,26 @@ footer p {
         margin-left: -50px;
         margin-top: 50px;
     }
+
+    footer p{
+        font-size: 2em;
+        margin-left: 25%;
+    }
+
+    .socials .fa {
+        font-size: 12px;
+        width: 15px;
+        margin-top: 30px;
+        margin-right: 10%;
+    }
 }
 
 @media screen and (max-width: 550px) {
+    body {
+        margin-top: 3%;
+        font-family: Arial, Helvetica, sans-serif, Verdana;
+    }
+
     #logo {
         width: 100%;
         margin-bottom: 20px;
