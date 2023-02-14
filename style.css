@@ -179,6 +179,7 @@ footer p {
     float: right;
     margin-right: 4.2%;
     margin-top: -25px;
+    justify-content: space-evenly;
 }
 
 .fa:hover {
@@ -274,7 +275,6 @@ footer p {
         font-size: 20px;
         width: 10px;
         margin-top: 30px;
-        margin-right: 11.6%;
     }
 }
 
@@ -317,6 +317,5 @@ footer p {
     .socials .fa {
         font-size: 20px;
         width: 10px;
-        margin-right: 11.6%;
     }
 }
