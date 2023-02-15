@@ -9,7 +9,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 ul {
@@ -234,11 +234,6 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        margin-top: 3%;
-        font-family: Arial, Helvetica, sans-serif, Verdana;
-    }
-
     .first-content {
         width: 100%;
         display: block;
@@ -304,4 +299,3 @@ footer p {
         width: 20px;
     }
 }
-
