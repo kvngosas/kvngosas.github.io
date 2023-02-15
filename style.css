@@ -91,7 +91,7 @@ ul li a:hover {
     margin-top: 7%;
 }
 
-h1{
+.first-content h1{
     font-size: 40px;
     font-family: 'Segoe UI Historic';
 }
@@ -102,11 +102,19 @@ h1{
     margin-bottom: -15px;
 }
 
-h4 {
+.first-content h4 {
     font-family: 'Segoe UI Historic';
     font-size: 18px;
     font-weight: lighter;
     padding-bottom: 70px;
+}
+
+.second-content {
+    background-color: lightgrey;
+    color: black;
+    height: auto;
+    top: -25px;
+    position: relative;
 }
 
 button {
@@ -190,6 +198,7 @@ footer p {
     .first-content {
         width: 100%;
         display: block;
+        margin-top: -7%;
         margin-bottom: 20px;
     }
 
@@ -201,14 +210,14 @@ footer p {
 
     .left {
         margin-top: 8px;
-        position: fixed;
+        position: sticky;
         margin-left: 8%;
     }
 
     .right {
-        margin-top: 10px;
-        position: fixed;
-        margin-left: 60%;
+        margin-top: 16px;
+        position: sticky;
+        margin-right: 18%;
     }
 
     #logo {
@@ -234,7 +243,7 @@ footer p {
         width: 100%;
         display: block;
         margin-bottom: 20px;
-        margin-top: -10%;
+        margin-top: -15%;
     }
 
     .navbar {
@@ -244,47 +253,17 @@ footer p {
     }
 
     .left {
-        margin-bottom: -38px;
+        margin-left: 0.1em;
         position: sticky;
-        margin-left: 50%;
     }
 
     .right {
-        margin-top: 10px;
+        margin-top: 0.4em;
+        margin-right: 1.9em;
         position: sticky;
     }
 
-    #logo {
-        width: 100%;
-        display: block;
-        margin-bottom: 12px;
-        margin-top: 20px;
-    }
-
-    button {
-        margin-left: -45px;
-        margin-top: 50px;
-    }
-
-    footer p{
-        font-size: 2em;
-        margin-left: 25%;
-    }
-
-    .socials .fa {
-        font-size: 20px;
-        width: 10px;
-        margin-top: 30px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    body {
-        margin-top: 3%;
-        font-family: Arial, Helvetica, sans-serif, Verdana;
-    }
-
-    #logo {
+     #logo {
         width: 100%;
         margin-bottom: 20px;
         left: 0px;
@@ -301,21 +280,28 @@ footer p {
         margin-top: 64px;
     }
 
+    button {
+        justify-content: center;
+    }
+
     footer {
         margin-bottom: 20px;
     }
 
     footer p{
         font-size: 15px;
-        margin-bottom: -13px;
+        margin-top: 3.5em;
+        margin-left: 6.2em;
     }
 
     footer .socials{
-        margin-top: -22px;
+        margin-top: -3.5em;
+        margin-right: 4.2em;
     }
 
     .socials .fa {
-        font-size: 20px;
-        width: 10px;
+        font-size: 30px;
+        width: 20px;
     }
 }
+
